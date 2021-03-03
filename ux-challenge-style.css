@@ -1,0 +1,77 @@
+.w3-container{
+
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;  
+  outline:none;
+  
+}
+
+.primarybtn {
+  background-color: #a645b8; 
+  color: #ffffff 
+  border: 1px solid #a645b8;
+  font-weight: 600;
+}
+
+
+.primarybtn:active {
+  background-color: #060606;
+  color: white;
+  border: 1px solid #060606;
+  opacity: none;
+}
+.primarybtn:hover {
+
+}
+
+.background-top {
+  background-color: #ffffff;
+
+}
+.background-bottom {
+
+
+}
+
+.primaryText{
+  color:#060606;
+  font-weight: 900;
+}
+
+.secondText{
+ font-weight: bolder;
+}
+
+
+p{
+  font-size: 22px;
+}
+
+.currentChallenge{
+  min-height: 250px;
+  margin-bottom: 2rem;
+  display: block; }
+
+  .linkBtn{
+   color: #a645b8; 
+   text-decoration: none;
+  }

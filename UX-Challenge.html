@@ -1,0 +1,122 @@
+
+<!-- Navbar 
+<head>
+  <link rel="stylesheet" href="ux-challenge-style.css">
+  </head>
+  
+
+<body style="text-align:center;"> 
+    <h1 style="color: green">   
+        UX Challenge Generator   
+    </h1> 
+    <p id="problemEngine">Ready for your next challenge?</p> 
+    <button class="button primarybtn" onclick="random()"> 
+       New Challenge
+    </button> 
+</body>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Playfair Display", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<head>
+  <link rel="stylesheet" href="ux-challenge-style.css">
+  </head>
+  
+<body class="contain">
+
+<!-- Navbar -->
+<nav class="w3-top ">
+  <div class=" background-top  w3-card w3-left-align w3-large">
+    <a href="#" class="w3-container w3-button w3-padding-large w3-white secondText ">💁🏻‍♀️ UX Challenge Generator</a>
+    
+  </div>
+</nav>
+
+<!-- Header -->
+<header class=" w3-container background-top w3-center" style="padding:135px 16px">
+  <h1 id="problemEngine" class="primaryText w3-margin w3-jumbo currentChallenge ">Ready for your next UX Challenge?</h1>
+  <p class="w3-xlarge w3-padding-16"> </p>
+  <button onclick="random()" class="w3-container button primarybtn">New Challenge</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-16 w3-container background-bottom">
+  <div class="w3-content ">
+    <div class="">
+      <h1 class="secondText">🤷🏼‍♀️ What is this?</h1>
+      <p class=""> Ever want to work on a UX challenge but just didn't know what problem to solve?  Well then this is for you! Click the magic buttone and see what challenge you will get!</p>
+    </div>
+
+    <div class="w3-content w3-padding-32 ">
+      <div>
+        <h1 class="secondText">🙇🏽‍♀️ Why use this?</h1>
+        <p class="">The best way to learn is with practice, practice, practice! Use these challenges as inspiration to create amazing design solutions. </p>
+      </div>
+
+      <div class="w3-content w3-padding-32 ">
+        <div>
+          <h1 class="secondText">💁🏿‍♀️ Have a challenge suggestion?</h1>
+          <p class="">Great! I can add it to the ever growing list of challenges. Feel free to <a class="linkBtn" href="mailto:samanthamferr@gmail.com"> shoot me a message </a>with your challenge. </p>
+        </div>
+      </div>
+      
+      <div class="w3-content w3-padding-32 ">
+        <div>
+          <h1 class="secondText">🙋🏻‍♀️ Who am I?</h1>
+          <p class="">Hey I'm Sam! A fellow designer that was looking for problems to solve and couldn't find any, so I created the UX Challenge Generator to make it easy and fun to find new problems to solve. Hope you like it!</p>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center ">  
+  
+ <p>Made with ❤️ by Samantha <a href="https://www.samanthaferreira.com/" target="_blank"></a></p>
+</footer>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+<script>
+  var problemEngine = document.getElementById("problemEngine"); 
+         
+         var problems = ["Find your way around a new city.", 
+                         "Split a check at a restaurant.", 
+                         "Organize your wardrobe.", 
+                         "Know where, what, and how to recycle.", 
+                         "Donate/recycle old goods and clothes efficiently.", 
+                         "Find other people to enjoy a hobby with.", 
+                         "Find a nanny.",
+                        "Find your way around a new city.", 
+                         "Split a check at a restaurant.", 
+                         "Organize your wardrobe."];
+           
+         function random() { 
+            problemEngine.innerHTML = 
+            problems[Math.floor(Math.random()*problems.length)];
+                 }
+</script>
